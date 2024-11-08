@@ -6,7 +6,7 @@ int amount,remainingAmount,num5000,num1000,num500,num200,num100,num50,num20,num1
 
 System.out.println("enter the amount :");
 amount=input.nextInt();
-System.out.println("amount is :",amount);
+System.out.println("amount is :"+amount);
 remainingAmount=amount;
 num5000=remainingAmount/5000;
 remainingAmount=remainingAmount%5000;
